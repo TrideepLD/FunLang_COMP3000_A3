@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0mD:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Main.scala:41:39: not found: type SyntaxAnalysis[0m
+[0m[[0m[31merror[0m] [0m[0m                    val parsers = new SyntaxAnalysis (posns)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Main.scala:57:44: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: funlang.FunLangTree.Program[0m
+[0m[[0m[31merror[0m] [0m[0m                            compileAndRun (sourcetree, messaging)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

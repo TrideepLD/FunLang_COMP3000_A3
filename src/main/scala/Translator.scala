@@ -1,0 +1,166 @@
+/**
+ * FunLang to SEC translator.
+ *
+ * Copyright 2020, Anthony Sloane, Kym Haines, Macquarie University, All rights reserved.
+ */
+
+package funlang
+
+/**
+ * Translator from FunLang source programs to SEC target programs.
+ */
+object Translator {
+
+    import SECTree._
+    import FunLangTree._
+    import scala.collection.mutable.ListBuffer
+    import SymbolTable._
+
+    /**
+     * Return a frame that represents the SEC instructions for a FunLang program.
+     */
+    def translate (program : Program) : Frame = {
+
+        // An instruction buffer for accumulating the program instructions
+        val programInstrBuffer = new ListBuffer[Instr] ()
+
+        /**
+         * Translate the program by translating its expression.
+         */
+        val expInstrs = translateExpression (program.exp)
+        programInstrBuffer.appendAll (expInstrs)
+        programInstrBuffer.append (IPrint ())
+
+        // Gather the program's instructions and return them
+        programInstrBuffer.result ()
+
+    }
+
+    /**
+     * Translate an expression and return a list of the instructions that
+     * form the translation.
+     */
+    def translateExpression (exp : Exp) : Frame = {
+
+        // An instruction buffer for accumulating the expression instructions
+        val expInstrBuffer = new ListBuffer[Instr] ()
+
+        /**
+         * Generate an instruction by appending it to the instruction buffer.
+         */
+        def gen (instr : Instr) {
+            expInstrBuffer.append (instr)
+        }
+
+        /**
+         * Generate a sequence of instructions by appending them all to the
+         * instruction buffer.
+         */
+        def genall (frame : Frame) {
+            expInstrBuffer.appendAll (frame)
+        }
+
+        /**
+         * Generate code to make a closure (argName => body).
+         */
+        def genMkClosure (argName : String, body : Exp) {
+            val bodyInstrs = translateExpression (body)
+            gen (IClosure (argName, bodyInstrs :+ IPopEnv ()))
+        }
+
+        exp match {
+
+            case IntExp (value) =>
+                gen (IInt (value))
+
+            case PlusExp (l, r) =>
+                genall (translateExpression (l))
+                genall (translateExpression (r))
+                gen (IAdd ())
+
+            case MinusExp (l, r) =>
+                genall (translateExpression (l))
+                genall (translateExpression (r))
+                gen (ISub ())
+
+            case SlashExp (l, r) =>
+                genall (translateExpression (l))
+                genall (translateExpression (r))
+                gen (IDiv ())
+
+            
+            case StarExp (l, r) =>
+                genall (translateExpression (l))
+                genall (translateExpression (r))
+                gen (IMul ())
+
+            case BoolExp (value) =>
+                gen (IBool (value))
+
+            case IdnUse(idn) => 
+                gen(IVar(idn))
+
+            case AppExp(fn, arg) => 
+                genall(translateExpression(fn))
+                genall(translateExpression(arg))
+                gen(ICall())
+
+            case EqualExp(left, right) => 
+                genall (translateExpression (left))
+                genall (translateExpression (right))
+                gen(IEqual())
+
+            case LessExp(left, right) => 
+                genall (translateExpression (left))
+                genall (translateExpression (right))
+                gen(ILess())
+            
+
+            case IfExp(cond, thenExp, elseExp) => 
+                genall(translateExpression(cond))
+                gen(
+                    IBranch(
+                    translateExpression(thenExp), 
+                    translateExpression(elseExp)
+                    )
+                )
+
+            
+            // case BlockExp(defns, exp) => 
+            //     head +: tail
+            case BlockExp(defns, exp) => 
+                defns match {
+                    case head +: tail => 
+                        head match {
+                            case Val(idndef,valExp) => genMkClosure(idndef.idn,BlockExp(tail,exp))
+                                                       genall(translateExpression(valExp))
+                                                       gen(ICall())
+                            case FunGroup(vect) => 
+                                vect match {
+                                    case fnhead +: fntail => genMkClosure(fnhead.idndef.idn ,BlockExp(Vector(FunGroup(fntail)),exp))
+                                                   genMkClosure(fnhead.lam.arg.idndef.idn,fnhead.lam.body)
+                                                   gen(ICall())
+                                    case _ =>  genall(translateExpression(exp))                                           
+                                }
+                        }
+                    case _ =>
+                        genall(translateExpression(exp))
+                }
+
+
+                
+            case _ => 0
+                // FIXME: Add cases for other kinds of expression...
+
+        }
+
+        // Gather the expression's instructions and return them
+        expInstrBuffer.result ()
+
+    }
+
+}
+// every construct
+// maybe some associativity tests
+// tests blocks
+// 

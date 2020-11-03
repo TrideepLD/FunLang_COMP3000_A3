@@ -1,0 +1,1102 @@
+2020.10.29 14:53:27 INFO  started: Metals version 0.9.4 in workspace 'D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3' for client vscode.
+2020.10.29 14:53:28 INFO  time: initialize in 0.66s
+2020.10.29 14:53:33 INFO  no build target: using presentation compiler with only scala-library
+2020.10.29 14:53:33 WARN  no build target for: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Main.scala
+Oct 29, 2020 2:53:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2020.10.29 14:53:35 INFO  running 'C:\Users\tride\.jabba\jdk\adopt@1.8.0-252\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.3.13 -jar C:\Users\tride\AppData\Local\Temp\metals4545836859756295820\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.10.29 14:53:41 INFO  [info] Updated file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\project\build.properties: set sbt.version to 1.3.13
+2020.10.29 14:53:41 INFO  [info] welcome to sbt 1.3.13 (AdoptOpenJDK Java 1.8.0_252)
+2020.10.29 14:53:44 INFO  [info] loading global plugins from C:\Users\tride\.sbt\1.0\plugins
+2020.10.29 14:53:48 INFO  [info] loading settings for project ass3-build-build from metals.sbt ...
+2020.10.29 14:53:48 INFO  [info] loading project definition from D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\project\project
+2020.10.29 14:53:50 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.10.29 14:53:50 INFO  [info] loading settings for project ass3-build from metals.sbt ...
+2020.10.29 14:53:51 INFO  [info] loading project definition from D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\project
+2020.10.29 14:53:53 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.10.29 14:53:54 INFO  [success] Generated .bloop\ass3-build.json
+2020.10.29 14:53:54 INFO  [success] Total time: 2 s, completed Oct 29, 2020 2:53:54 PM
+2020.10.29 14:53:58 INFO  [info] loading settings for project ass3 from build.sbt ...
+2020.10.29 14:53:58 INFO  [info] set current project to comp3000-ass3 (in build file:/D:/newStudyFolder/Semester_4/Programming%20Languages(COMP3000)/Ass/ASS3/)
+2020.10.29 14:54:02 INFO  [success] Generated .bloop\ass3-test.json
+2020.10.29 14:54:02 INFO  [success] Generated .bloop\ass3.json
+2020.10.29 14:54:02 INFO  [success] Total time: 3 s, completed Oct 29, 2020 2:54:02 PM
+2020.10.29 14:54:02 INFO  build tool exit: 0
+2020.10.29 14:54:03 INFO  time: ran 'sbt bloopInstall' in 27s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38918'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.4-13-408f4d80...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'd:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop'...
+[0m[32m[D][0m Loading project from 'd:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3-test.json'
+[0m[32m[D][0m Loading project from 'd:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => C:\Users\tride\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\tride\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\tride\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.8\scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => C:\Users\tride\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.8\scala-library-2.12.8.jar
+[0m[32m[D][0m   => C:\Users\tride\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.8\scala-reflect-2.12.8.jar
+[0m[32m[D][0m Missing analysis file for project 'ass3'
+[0m[32m[D][0m Missing analysis file for project 'ass3-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38918...
+The server is listening for incoming connections at tcp://127.0.0.1:38918...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.29 14:54:11 WARN  no build target for: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Translator.scala
+2020.10.29 14:54:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 13384'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:13384...
+The server is listening for incoming connections at tcp://127.0.0.1:13384...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.29 14:54:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.10.29 14:54:13 INFO  time: connected to build server in 9.85s
+2020.10.29 14:54:13 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.29 14:54:13 INFO  time: imported build in 0.17s
+2020.10.29 14:54:20 INFO  compiling ass3 (7 scala sources)
+2020.10.29 14:54:23 INFO  time: indexed workspace in 9.59s
+2020.10.29 14:54:23 INFO  Deduplicating compilation of ass3 from bsp client 'Metals 0.9.4' (since 10.662s)
+2020.10.29 14:54:23 INFO  compiling ass3 (7 scala sources)
+2020.10.29 14:54:29 INFO  time: compiled ass3 in 6.33s
+2020.10.29 14:54:31 INFO  compiling ass3 (7 scala sources)
+2020.10.29 14:54:33 INFO  time: compiled ass3 in 1.71s
+2020.10.29 14:54:35 INFO  compiling ass3 (7 scala sources)
+2020.10.29 14:54:36 INFO  time: compiled ass3 in 1.23s
+2020.10.29 14:56:05 INFO  compiling ass3 (7 scala sources)
+2020.10.29 14:56:05 INFO  time: compiled ass3 in 0.84s
+2020.10.29 14:56:08 ERROR code navigation does not work for the file 'D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Main.scala' because the SemanticDB file 'D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-nka58BQDSj69wJCyuiV5eg==\META-INF\semanticdb\src\main\scala\Main.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.10.29 14:56:08 ERROR code navigation does not work for the file 'D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Main.scala' because the SemanticDB file 'D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-nka58BQDSj69wJCyuiV5eg==\META-INF\semanticdb\src\main\scala\Main.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2020.10.29 14:56:10 INFO  compiling ass3 (7 scala sources)
+2020.10.29 14:56:10 INFO  time: compiled ass3 in 0.74s
+2020.10.29 14:56:27 INFO  compiling ass3 (7 scala sources)
+2020.10.29 14:56:27 INFO  time: compiled ass3 in 0.74s
+2020.10.29 15:00:01 INFO  compiling ass3 (7 scala sources)
+2020.10.29 15:00:01 INFO  time: compiled ass3 in 0.76s
+2020.10.29 15:10:56 INFO  compiling ass3 (8 scala sources)
+2020.10.29 15:11:08 INFO  time: compiled ass3 in 12s
+2020.10.29 15:15:48 INFO  compiling ass3-test (5 scala sources)
+2020.10.29 15:15:52 INFO  time: compiled ass3-test in 4.15s
+2020.10.29 15:29:34 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:29:34 INFO  time: compiled ass3 in 0.65s
+2020.10.29 15:32:28 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:32:30 INFO  time: compiled ass3 in 1.69s
+2020.10.29 15:34:25 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:34:25 INFO  time: compiled ass3 in 0.83s
+2020.10.29 15:35:38 INFO  compiling ass3 (1 scala source)
+something's wrong: no file:///D:/newStudyFolder/Semester_4/Programming%20Languages(COMP3000)/Ass/ASS3/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.DefnGroup]RangePosition(file:///D:/newStudyFolder/Semester_4/Programming%20Languages(COMP3000)/Ass/ASS3/src/main/scala/SyntaxAnalysis.scala, 2034, 2034, 2058)
+2020.10.29 15:35:38 INFO  time: compiled ass3 in 0.61s
+2020.10.29 15:36:06 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:36:06 INFO  time: compiled ass3 in 0.64s
+2020.10.29 15:36:18 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:36:18 INFO  time: compiled ass3 in 0.34s
+2020.10.29 15:36:26 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:36:26 INFO  time: compiled ass3 in 0.33s
+Oct 29, 2020 3:36:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 423
+something's wrong: no file:///D:/newStudyFolder/Semester_4/Programming%20Languages(COMP3000)/Ass/ASS3/src/main/scala/SyntaxAnalysis.scala in SyntaxAnalysis.this.PackratParser[funlang.FunLangTree.Exp]RangePosition(file:///D:/newStudyFolder/Semester_4/Programming%20Languages(COMP3000)/Ass/ASS3/src/main/scala/SyntaxAnalysis.scala, 987, 987, 1005)
+2020.10.29 15:37:13 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:37:13 INFO  time: compiled ass3 in 0.3s
+2020.10.29 15:37:20 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:37:20 INFO  time: compiled ass3 in 0.48s
+2020.10.29 15:38:40 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:38:40 INFO  time: compiled ass3 in 0.36s
+2020.10.29 15:39:50 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:39:50 INFO  time: compiled ass3 in 0.36s
+2020.10.29 15:39:58 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:39:58 INFO  time: compiled ass3 in 0.3s
+2020.10.29 15:40:13 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:40:13 INFO  time: compiled ass3 in 0.17s
+2020.10.29 15:40:19 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:40:19 INFO  time: compiled ass3 in 0.34s
+2020.10.29 15:40:47 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:40:47 INFO  time: compiled ass3 in 0.47s
+2020.10.29 15:41:41 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:41:41 INFO  time: compiled ass3 in 0.32s
+2020.10.29 15:42:35 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:42:35 INFO  time: compiled ass3 in 0.76s
+2020.10.29 15:42:38 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:42:38 INFO  time: compiled ass3 in 0.41s
+2020.10.29 15:53:31 INFO  compiling ass3 (1 scala source)
+2020.10.29 15:53:31 INFO  time: compiled ass3 in 0.54s
+2020.10.29 16:15:39 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:15:39 INFO  time: compiled ass3 in 0.47s
+2020.10.29 16:15:44 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:15:44 INFO  time: compiled ass3 in 0.33s
+2020.10.29 16:17:40 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:17:40 INFO  time: compiled ass3 in 0.65s
+2020.10.29 16:17:48 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:17:48 INFO  time: compiled ass3 in 0.18s
+2020.10.29 16:17:53 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:17:53 INFO  time: compiled ass3 in 0.19s
+2020.10.29 16:18:01 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:18:01 INFO  time: compiled ass3 in 0.17s
+2020.10.29 16:18:26 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:18:26 INFO  time: compiled ass3 in 0.27s
+2020.10.29 16:18:35 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:18:35 INFO  time: compiled ass3 in 0.23s
+2020.10.29 16:18:45 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:18:45 INFO  time: compiled ass3 in 0.18s
+2020.10.29 16:20:03 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:20:03 INFO  time: compiled ass3 in 0.21s
+2020.10.29 16:20:23 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:20:23 INFO  time: compiled ass3 in 0.31s
+2020.10.29 16:22:35 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:22:35 INFO  time: compiled ass3 in 0.85s
+2020.10.29 16:23:29 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:23:29 INFO  time: compiled ass3 in 0.17s
+2020.10.29 16:23:41 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:23:41 INFO  time: compiled ass3 in 0.41s
+2020.10.29 16:23:48 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:23:48 INFO  time: compiled ass3 in 0.33s
+2020.10.29 16:26:07 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:26:07 INFO  time: compiled ass3 in 0.47s
+2020.10.29 16:26:32 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:26:32 INFO  time: compiled ass3 in 0.29s
+2020.10.29 16:27:18 INFO  compiling ass3 (1 scala source)
+2020.10.29 16:27:18 INFO  time: compiled ass3 in 0.3s
+2020.10.29 18:13:34 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.10.30 10:26:50 INFO  started: Metals version 0.9.4 in workspace 'D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3' for client vscode.
+2020.10.30 10:26:50 INFO  time: initialize in 0.66s
+2020.10.30 10:26:56 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43472'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43472...
+The server is listening for incoming connections at tcp://127.0.0.1:43472...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.30 10:26:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23155'...
+Waiting for the bsp connection to come up...
+2020.10.30 10:26:59 INFO  no build target: using presentation compiler with only scala-library
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23155...
+The server is listening for incoming connections at tcp://127.0.0.1:23155...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.10.30 10:26:59 WARN  no build target for: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Translator.scala
+2020.10.30 10:27:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.10.30 10:27:00 INFO  time: connected to build server in 4.59s
+2020.10.30 10:27:00 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.10.30 10:27:00 INFO  time: imported build in 0.29s
+2020.10.30 10:27:07 INFO  time: indexed workspace in 6.66s
+2020.10.30 10:27:08 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\FunLangTree.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\FunLangTree.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.10.30 10:27:08 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\SemanticAnalysis.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\SemanticAnalysis.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.10.30 10:27:08 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\SECMachine.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\SECMachine.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.10.30 10:27:08 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\Main.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\Main.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.10.30 10:27:08 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\SECTree.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\SECTree.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.10.30 10:27:08 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\SymbolTable.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-IdG9HPAiTNS7ApIrjRpUdg==\META-INF\semanticdb\src\main\scala\SymbolTable.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.10.30 10:29:18 INFO  compiling ass3 (1 scala source)
+2020.10.30 10:29:20 INFO  time: compiled ass3 in 2.24s
+2020.10.30 10:38:02 INFO  compiling ass3 (1 scala source)
+2020.10.30 10:38:04 INFO  time: compiled ass3 in 2.03s
+2020.10.30 10:38:33 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:38:33 INFO  time: compiled ass3 in 0.47s
+2020.10.30 10:38:43 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:38:43 INFO  time: compiled ass3 in 0.21s
+2020.10.30 10:39:40 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:39:40 INFO  time: compiled ass3 in 0.13s
+2020.10.30 10:40:19 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:40:19 INFO  time: compiled ass3 in 99ms
+2020.10.30 10:40:55 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:40:55 INFO  time: compiled ass3 in 81ms
+2020.10.30 10:41:15 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:41:15 INFO  time: compiled ass3 in 66ms
+2020.10.30 10:41:19 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:41:19 INFO  time: compiled ass3 in 87ms
+2020.10.30 10:41:53 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:41:53 INFO  time: compiled ass3 in 99ms
+2020.10.30 10:41:55 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:41:55 INFO  time: compiled ass3 in 89ms
+2020.10.30 10:41:58 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:41:58 INFO  time: compiled ass3 in 0.11s
+2020.10.30 10:42:02 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:42:02 INFO  time: compiled ass3 in 74ms
+2020.10.30 10:42:23 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:42:23 INFO  time: compiled ass3 in 73ms
+2020.10.30 10:42:53 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:42:53 INFO  time: compiled ass3 in 58ms
+2020.10.30 10:42:56 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:42:56 INFO  time: compiled ass3 in 63ms
+2020.10.30 10:42:58 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:42:58 INFO  time: compiled ass3 in 45ms
+2020.10.30 10:43:00 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:43:02 INFO  Deduplicating compilation of ass3 from bsp client 'Metals 0.9.4' (since 16m 1.642s)
+2020.10.30 10:43:02 INFO  time: compiled ass3 in 2.53s
+2020.10.30 10:43:02 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:43:02 INFO  time: compiled ass3 in 8ms
+2020.10.30 10:43:17 INFO  compiling ass3 (2 scala sources)
+2020.10.30 10:43:17 INFO  time: compiled ass3 in 0.63s
+2020.10.30 10:43:36 INFO  compiling ass3 (1 scala source)
+2020.10.30 10:43:36 INFO  time: compiled ass3 in 0.48s
+2020.10.30 10:43:44 INFO  compiling ass3 (1 scala source)
+2020.10.30 10:43:44 INFO  time: compiled ass3 in 0.33s
+2020.10.30 10:44:22 INFO  compiling ass3 (1 scala source)
+2020.10.30 10:44:22 INFO  time: compiled ass3 in 0.36s
+2020.10.30 10:44:40 INFO  compiling ass3 (1 scala source)
+2020.10.30 10:44:40 INFO  time: compiled ass3 in 0.38s
+2020.10.30 10:44:47 INFO  compiling ass3 (1 scala source)
+2020.10.30 10:44:47 INFO  time: compiled ass3 in 0.39s
+2020.10.30 10:48:15 INFO  compiling ass3-test (1 scala source)
+2020.10.30 10:48:19 INFO  time: compiled ass3-test in 3.96s
+2020.10.30 10:48:47 INFO  compiling ass3-test (2 scala sources)
+2020.10.30 10:48:47 INFO  time: compiled ass3-test in 95ms
+2020.10.30 10:49:01 INFO  compiling ass3-test (1 scala source)
+2020.10.30 10:49:03 INFO  time: compiled ass3-test in 1.42s
+2020.10.30 11:53:04 INFO  time: code lens generation in 1.47s
+Oct 30, 2020 11:53:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1107
+Oct 30, 2020 11:53:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1118
+2020.10.30 12:05:34 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.11.02 08:04:00 INFO  started: Metals version 0.9.4 in workspace 'D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3' for client vscode.
+2020.11.02 08:04:01 INFO  time: initialize in 0.56s
+2020.11.02 08:04:02 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 29864'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:29864...
+The server is listening for incoming connections at tcp://127.0.0.1:29864...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 08:04:04 INFO  no build target: using presentation compiler with only scala-library
+2020.11.02 08:04:04 WARN  no build target for: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Translator.scala
+2020.11.02 08:04:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19654'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19654...
+The server is listening for incoming connections at tcp://127.0.0.1:19654...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 08:04:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.02 08:04:05 INFO  time: connected to build server in 3.74s
+2020.11.02 08:04:05 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.02 08:04:05 INFO  time: imported build in 0.33s
+2020.11.02 08:04:19 INFO  time: indexed workspace in 13s
+2020.11.02 08:12:23 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:12:25 INFO  time: compiled ass3-test in 1.99s
+2020.11.02 08:14:14 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:14:15 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 08:14:14 INFO  time: compiled ass3-test in 0.64s
+2020.11.02 08:17:23 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:17:23 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 08:17:23 INFO  time: compiled ass3-test in 0.64s
+2020.11.02 08:18:11 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:18:11 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 08:18:11 INFO  time: compiled ass3-test in 0.54s
+2020.11.02 08:19:15 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:19:15 INFO  time: compiled ass3-test in 0.6s
+2020.11.02 08:19:54 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:19:57 INFO  time: compiled ass3-test in 2.55s
+2020.11.02 08:20:35 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:20:35 INFO  time: compiled ass3-test in 0.65s
+2020.11.02 08:20:40 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:20:40 INFO  time: compiled ass3-test in 0.54s
+2020.11.02 08:22:19 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:22:19 INFO  time: compiled ass3-test in 0.79s
+2020.11.02 08:23:45 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:23:45 INFO  time: compiled ass3-test in 0.48s
+2020.11.02 08:25:56 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:25:56 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 08:26:04 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:26:04 INFO  time: compiled ass3-test in 0.53s
+2020.11.02 08:27:17 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:27:17 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 08:28:01 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:28:01 INFO  time: compiled ass3-test in 0.5s
+2020.11.02 08:28:59 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:28:59 INFO  time: compiled ass3-test in 0.48s
+2020.11.02 08:30:29 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:30:29 INFO  time: compiled ass3-test in 0.51s
+2020.11.02 08:33:29 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:33:29 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 08:33:29 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 08:33:50 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:33:50 INFO  time: compiled ass3-test in 0.41s
+2020.11.02 08:35:34 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:35:34 INFO  time: compiled ass3-test in 0.48s
+2020.11.02 08:37:30 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:37:30 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 08:39:27 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:39:27 INFO  time: compiled ass3-test in 0.46s
+2020.11.02 08:40:41 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:40:41 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 08:42:01 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:42:01 INFO  time: compiled ass3-test in 0.46s
+2020.11.02 08:42:05 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:42:05 INFO  time: compiled ass3-test in 0.49s
+2020.11.02 08:42:43 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:42:43 INFO  time: compiled ass3-test in 0.52s
+2020.11.02 08:43:48 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:43:48 INFO  time: compiled ass3-test in 0.41s
+2020.11.02 08:44:59 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:44:59 INFO  time: compiled ass3-test in 0.4s
+2020.11.02 08:45:41 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:45:41 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 08:46:44 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:46:44 INFO  time: compiled ass3-test in 0.41s
+2020.11.02 08:48:17 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:48:17 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 08:48:23 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:48:23 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 08:49:11 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:49:11 INFO  time: compiled ass3-test in 0.41s
+2020.11.02 08:50:00 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:50:00 INFO  time: compiled ass3-test in 0.49s
+2020.11.02 08:50:42 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:50:42 INFO  time: compiled ass3-test in 0.57s
+2020.11.02 08:51:39 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:51:39 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 08:51:41 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:51:41 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 08:51:59 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:51:59 INFO  time: compiled ass3-test in 0.54s
+2020.11.02 08:52:29 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:52:29 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 08:53:08 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:53:08 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 08:53:16 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:53:16 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 08:53:18 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:53:18 INFO  time: compiled ass3-test in 0.42s
+2020.11.02 08:53:38 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:53:38 INFO  time: compiled ass3-test in 0.49s
+2020.11.02 08:54:59 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:54:59 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 08:55:19 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:55:19 INFO  time: compiled ass3-test in 0.51s
+2020.11.02 08:55:53 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:55:53 INFO  time: compiled ass3-test in 0.46s
+2020.11.02 08:55:55 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:55:55 INFO  time: compiled ass3-test in 0.52s
+2020.11.02 08:56:21 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:56:21 INFO  time: compiled ass3-test in 0.5s
+2020.11.02 08:56:28 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:56:28 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 08:56:36 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:56:36 INFO  time: compiled ass3-test in 0.49s
+2020.11.02 08:57:40 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:57:40 INFO  time: compiled ass3-test in 0.4s
+2020.11.02 08:58:16 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:58:16 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 08:59:01 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:59:01 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 08:59:53 INFO  compiling ass3-test (1 scala source)
+2020.11.02 08:59:53 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:00:14 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:00:14 INFO  time: compiled ass3-test in 0.39s
+2020.11.02 09:00:24 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:00:24 INFO  time: compiled ass3-test in 0.48s
+2020.11.02 09:00:35 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:00:35 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 09:01:24 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:01:24 INFO  time: compiled ass3-test in 0.55s
+2020.11.02 09:02:05 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:02:05 INFO  time: compiled ass3-test in 0.39s
+2020.11.02 09:02:20 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:02:20 INFO  time: compiled ass3-test in 0.4s
+2020.11.02 09:02:51 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:02:51 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 09:03:58 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:03:58 INFO  time: compiled ass3-test in 0.42s
+2020.11.02 09:04:13 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:04:13 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:07:37 INFO  compiling ass3 (1 scala source)
+2020.11.02 09:07:37 INFO  time: compiled ass3 in 0.29s
+2020.11.02 09:07:45 INFO  compiling ass3 (1 scala source)
+2020.11.02 09:07:45 INFO  time: compiled ass3 in 56ms
+2020.11.02 09:07:56 INFO  compiling ass3 (1 scala source)
+2020.11.02 09:07:56 INFO  time: compiled ass3 in 0.48s
+2020.11.02 09:09:11 INFO  compiling ass3 (1 scala source)
+2020.11.02 09:09:11 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\main\scala\Translator.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\main\scala\Translator.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 09:09:11 INFO  time: compiled ass3 in 0.31s
+2020.11.02 09:09:22 INFO  compiling ass3 (1 scala source)
+2020.11.02 09:09:22 INFO  time: compiled ass3 in 0.32s
+2020.11.02 09:09:56 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:09:56 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 09:10:01 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:10:01 INFO  time: compiled ass3-test in 0.39s
+2020.11.02 09:10:37 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:10:37 INFO  time: compiled ass3-test in 0.16s
+2020.11.02 09:11:20 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:11:20 INFO  time: compiled ass3-test in 0.58s
+2020.11.02 09:13:06 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:13:06 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 09:13:06 INFO  time: compiled ass3-test in 0.46s
+2020.11.02 09:13:22 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:13:22 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 09:13:26 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:13:26 INFO  time: compiled ass3-test in 0.46s
+2020.11.02 09:13:53 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:13:53 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 09:14:39 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:14:39 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 09:15:07 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:15:07 INFO  time: compiled ass3-test in 0.39s
+2020.11.02 09:15:46 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:15:46 INFO  time: compiled ass3-test in 0.48s
+2020.11.02 09:15:57 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:15:57 INFO  time: compiled ass3-test in 0.76s
+2020.11.02 09:16:06 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:16:06 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:17:08 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:17:08 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 09:17:22 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:17:22 INFO  time: compiled ass3-test in 0.42s
+2020.11.02 09:17:34 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:17:34 INFO  time: compiled ass3-test in 0.42s
+2020.11.02 09:17:46 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:17:46 INFO  time: compiled ass3-test in 0.42s
+2020.11.02 09:18:14 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:18:14 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:18:35 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:18:35 INFO  time: compiled ass3-test in 0.42s
+2020.11.02 09:18:54 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:18:54 INFO  time: compiled ass3-test in 0.42s
+2020.11.02 09:19:19 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:19:19 INFO  time: compiled ass3-test in 0.41s
+2020.11.02 09:19:36 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:19:36 INFO  time: compiled ass3-test in 0.4s
+2020.11.02 09:19:55 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:19:55 INFO  time: compiled ass3-test in 0.38s
+2020.11.02 09:20:01 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:20:01 INFO  time: compiled ass3-test in 0.41s
+2020.11.02 09:20:09 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:20:09 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 09:22:34 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:22:34 INFO  time: compiled ass3-test in 0.46s
+Nov 02, 2020 9:23:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4780
+2020.11.02 09:23:25 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:23:25 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 09:29:56 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:29:56 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 09:29:56 INFO  time: compiled ass3-test in 0.46s
+2020.11.02 09:30:40 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:30:40 INFO  time: compiled ass3-test in 0.51s
+2020.11.02 09:30:56 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:30:56 INFO  time: compiled ass3-test in 0.68s
+2020.11.02 09:31:05 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:31:05 INFO  time: compiled ass3-test in 0.58s
+2020.11.02 09:31:51 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:31:51 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 09:31:51 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 09:34:00 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:34:01 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 09:34:00 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 09:34:25 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:34:25 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 09:34:52 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:34:52 INFO  time: compiled ass3-test in 0.46s
+2020.11.02 09:35:08 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:35:08 INFO  time: compiled ass3-test in 0.39s
+2020.11.02 09:35:40 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:35:40 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:35:44 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:35:44 INFO  time: compiled ass3-test in 0.46s
+2020.11.02 09:36:05 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:36:05 INFO  time: compiled ass3-test in 0.48s
+2020.11.02 09:36:17 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:36:17 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 09:37:09 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:37:09 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:37:22 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:37:22 INFO  time: compiled ass3-test in 0.39s
+2020.11.02 09:37:40 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:37:40 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:37:43 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:37:43 INFO  time: compiled ass3-test in 0.72s
+2020.11.02 09:38:00 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:38:00 INFO  time: compiled ass3-test in 0.39s
+2020.11.02 09:38:26 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:38:26 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 09:38:26 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:39:18 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:39:18 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 09:39:45 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:39:45 INFO  time: compiled ass3-test in 0.43s
+2020.11.02 09:40:30 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:40:30 INFO  time: compiled ass3-test in 0.52s
+2020.11.02 09:42:07 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:42:07 INFO  time: compiled ass3-test in 0.47s
+2020.11.02 09:43:10 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:43:10 INFO  time: compiled ass3-test in 0.39s
+2020.11.02 09:43:15 INFO  compiling ass3-test (1 scala source)
+2020.11.02 09:43:15 INFO  time: compiled ass3-test in 0.43s
+Nov 02, 2020 10:10:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6729
+2020.11.02 10:21:15 INFO  compiling ass3 (1 scala source)
+2020.11.02 10:21:15 INFO  Deduplicating compilation of ass3 from bsp client 'Metals 0.9.4' (since 2h 17m 10.737s)
+2020.11.02 10:21:15 INFO  compiling ass3 (1 scala source)
+2020.11.02 10:21:15 INFO  time: compiled ass3 in 0.69s
+2020.11.02 10:21:29 INFO  compiling ass3 (1 scala source)
+2020.11.02 10:21:29 INFO  time: compiled ass3 in 0.53s
+2020.11.02 10:21:39 INFO  compiling ass3 (1 scala source)
+2020.11.02 10:21:39 INFO  time: compiled ass3 in 0.14s
+2020.11.02 10:21:52 INFO  compiling ass3 (1 scala source)
+2020.11.02 10:21:52 INFO  time: compiled ass3 in 0.28s
+Nov 02, 2020 10:27:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7084
+2020.11.02 10:27:32 INFO  compiling ass3 (1 scala source)
+2020.11.02 10:27:32 INFO  time: compiled ass3 in 0.31s
+2020.11.02 10:40:20 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:40:20 INFO  time: compiled ass3-test in 0.92s
+2020.11.02 10:40:32 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:40:32 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 10:40:32 INFO  time: compiled ass3-test in 0.5s
+2020.11.02 10:40:39 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:40:39 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 10:42:27 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:42:27 INFO  time: compiled ass3-test in 0.22s
+2020.11.02 10:42:35 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:42:35 INFO  time: compiled ass3-test in 0.19s
+2020.11.02 10:42:37 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:42:37 INFO  time: compiled ass3-test in 0.27s
+2020.11.02 10:43:03 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:43:03 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 10:43:03 INFO  time: compiled ass3-test in 0.44s
+2020.11.02 10:44:41 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:44:41 INFO  time: compiled ass3-test in 0.73s
+2020.11.02 10:52:21 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:52:21 INFO  time: compiled ass3-test in 0.48s
+2020.11.02 10:52:40 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:52:41 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 10:52:40 INFO  time: compiled ass3-test in 0.45s
+2020.11.02 10:53:15 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:53:15 INFO  time: compiled ass3-test in 0.51s
+2020.11.02 10:59:16 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:59:16 INFO  time: compiled ass3-test in 0.15s
+2020.11.02 10:59:19 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:59:19 INFO  time: compiled ass3-test in 91ms
+2020.11.02 10:59:27 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:59:27 INFO  time: compiled ass3-test in 67ms
+2020.11.02 10:59:56 INFO  compiling ass3-test (1 scala source)
+2020.11.02 10:59:57 INFO  time: compiled ass3-test in 1.21s
+2020.11.02 11:00:00 INFO  compiling ass3-test (1 scala source)
+2020.11.02 11:00:00 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 11:00:00 INFO  time: compiled ass3-test in 0.69s
+2020.11.02 11:00:03 INFO  compiling ass3-test (1 scala source)
+2020.11.02 11:00:05 WARN  unexpected error processing the file D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb
+java.nio.file.FileSystemException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\.bloop\ass3\bloop-bsp-clients-classes\test-classes-Metals-KoP2OS1iQea73VlvnM3c5Q==\META-INF\semanticdb\src\test\scala\ExecTests.scala.semanticdb: The process cannot access the file because it is being used by another process.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:82)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1062)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.02 11:00:05 INFO  time: compiled ass3-test in 2.44s
+Nov 02, 2020 12:40:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8296
+2020.11.02 12:40:44 INFO  compiling ass3-test (1 scala source)
+2020.11.02 12:40:48 INFO  time: compiled ass3-test in 3.81s
+Nov 02, 2020 8:14:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.11.02 20:15:36 INFO  shutting down Metals
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

@@ -1,0 +1,31 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mExecTests in library/src/test/scala/funlang:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an integer expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an addition expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a true expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a false expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a subtraction expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a multiplication expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a division expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an equality expression evaluates to the correct result (true)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an equality expression evaluates to the correct result (false)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a less-than expression evaluates to the correct result (true)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a less-than expression evaluates to the correct result (false)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a multi-operator expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- simple expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 10 is not < 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 10 is < 20[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 10 is not == 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- 10 is == 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- evaluation of operators is in the correct order[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- an if expression evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a true less-than condition evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a false less-than condition evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a false equal condition evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a true equal condition evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a true literal condition evaluates to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nested if statments evaluate to the correct result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- super-duper nested if statement[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing block expressions to show they produce the right result[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- I have an If, I have a function, IfFunction![0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- I have a function, I have a function, FunctionFunction[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- I have a ifFunction, I have a FunctionFunction, IfFunction-FunctionFunction[0m[0m

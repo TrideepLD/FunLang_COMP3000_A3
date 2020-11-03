@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="MSI" name="funlang.NameTests" tests="31" errors="0" failures="0" skipped="0" time="0.554" timestamp="2020-11-03T15:12:29">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value="amd64"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="sun.boot.library.path" value="C:\Users\tride\Downloads\jdk-11\bin"/><property name="sun.java.command" value="xsbt.boot.Boot test"/><property name="jdk.debug" value="release"/><property name="sun.stderr.encoding" value="cp437"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2018-09-25"/><property name="java.home" value="C:\Users\tride\Downloads\jdk-11"/><property name="file.separator" value="\"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="sun.stdout.encoding" value="cp437"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.script" value=""/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11+28"/><property name="user.name" value="tride"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="java.vendor.version" value="18.9"/><property name="java.io.tmpdir" value="C:\Users\tride\AppData\Local\Temp\"/><property name="java.version" value="11"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="sun.os.patch.level" value=""/><property name="java.library.path" value="C:\Users\tride\Downloads\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\tride\Downloads\jdk-11\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\tride\Downloads\sbt\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\tride\Downloads\jdk-11\bin;C:\Users\tride\Downloads\jdk-11\bin;C:\Users\tride\AppData\Local\Microsoft\WindowsApps;C:\Users\tride\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\tride\AppData\Local\GitHubDesktop\bin;C:\Users\tride\AppData\Roaming\npm;;."/><property name="java.vendor" value="Oracle Corporation"/><property name="scala.ext.dirs" value="C:\Users\tride\.sbt\0.13\java9-rt-ext-oracle_corporation_11"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="windows"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\\bin\sbt-launch.jar"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Australia/Sydney"/><property name="os.name" value="Windows 10"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="MY"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="C:\Users\tride"/><property name="user.language" value="en"/><property name="swoval.tmpdir" value="C:\Users\tride\.sbt\1.0"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=";"/><property name="os.version" value="10.0"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/><property name="user.dir" value="D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11+28"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="funlang.NameTests" name="a top-level variable is unbound" time="0.066">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="a bound value is not an error" time="0.056">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="an outer binding is visible in an inner block" time="0.02">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="a bound value is not visible in its own definition" time="0.012">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="a binding doesn't escape to an outer scope" time="0.021">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="an unbound value is an error" time="0.033">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="a rebinding is an error (val-val)" time="0.01">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="a rebinding is an error (val-def)" time="0.029">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="a rebinding is an error (def-val)" time="0.009">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="using a function argument name is not an error" time="0.012">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="using an unbound function argument name is an error" time="0.009">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="a nested binding in a block goes away outside the block" time="0.018">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="a nested binding in a lambda goes away outside the lambda (argument)" time="0.032">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of different name is not an error (val-val)" time="0.011">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of different name is not an error (def-def)" time="0.015">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of different name is not an error (val-def)" time="0.008">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of different name is not an error (def-val)" time="0.014">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of same name is not an error (val-val)" time="0.013">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of same name is not an error (def-def)" time="0.016">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of same name is not an error (val-def)" time="0.01">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of same name is not an error (def-val)" time="0.008">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of outer name is not an error (val-val)" time="0.009">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of outer name is not an error (def-def)" time="0.016">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of outer name is not an error (val-def)" time="0.016">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested binding of outer name is not an error (def-val)" time="0.027">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested use of unbound name is an error (val-val)" time="0.008">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="nested use of unbound name is an error (def-def)" time="0.01">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="backward reference is allowed in same group" time="0.024">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="forward reference is not allowed in same group" time="0.006">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="backward reference is allowed in different group" time="0.009">
+                                                 
+                                               </testcase><testcase classname="funlang.NameTests" name="forward reference is not allowed in different group" time="0.007">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>
