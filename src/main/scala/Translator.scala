@@ -130,14 +130,14 @@ object Translator {
             //     head +: tail
             case BlockExp(defns, exp) => 
                 defns match {
-                    case head +: tail => 
+                    case head :: tail => 
                         head match {
                             case Val(idndef,valExp) => genMkClosure(idndef.idn,BlockExp(tail,exp))
                                                        genall(translateExpression(valExp))
                                                        gen(ICall())
                             case FunGroup(vect) => 
                                 vect match {
-                                    case fnhead +: fntail => genMkClosure(fnhead.idndef.idn ,BlockExp(Vector(FunGroup(fntail)),exp))
+                                    case fnhead :: fntail => genMkClosure(fnhead.idndef.idn ,BlockExp(Vector(FunGroup(fntail)),exp))
                                                    genMkClosure(fnhead.lam.arg.idndef.idn,fnhead.lam.body)
                                                    gen(ICall())
                                     case _ =>  genall(translateExpression(exp))                                           
