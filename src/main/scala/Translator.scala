@@ -79,19 +79,13 @@ object Translator {
                 gen (IAdd ())
 
             case MinusExp (l, r) =>
-                genall (translateExpression (l))
-                genall (translateExpression (r))
                 gen (ISub ())
 
             case SlashExp (l, r) =>
-                genall (translateExpression (l))
-                genall (translateExpression (r))
                 gen (IDiv ())
 
             
             case StarExp (l, r) =>
-                genall (translateExpression (l))
-                genall (translateExpression (r))
                 gen (IMul ())
 
             case BoolExp (value) =>
@@ -101,18 +95,12 @@ object Translator {
                 gen(IVar(idn))
 
             case AppExp(fn, arg) => 
-                genall(translateExpression(fn))
-                genall(translateExpression(arg))
                 gen(ICall())
 
             case EqualExp(left, right) => 
-                genall (translateExpression (left))
-                genall (translateExpression (right))
                 gen(IEqual())
 
             case LessExp(left, right) => 
-                genall (translateExpression (left))
-                genall (translateExpression (right))
                 gen(ILess())
             
 
@@ -133,7 +121,6 @@ object Translator {
                     case head :: tail => 
                         head match {
                             case Val(idndef,valExp) => genMkClosure(idndef.idn,BlockExp(tail,exp))
-                                                       genall(translateExpression(valExp))
                                                        gen(ICall())
                             case FunGroup(vect) => 
                                 vect match {

@@ -1290,3 +1290,135 @@ Caused by: java.lang.InterruptedException
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
+2020.11.05 02:56:06 INFO  started: Metals version 0.9.4 in workspace 'D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3' for client vscode.
+2020.11.05 02:56:07 INFO  time: initialize in 0.66s
+2020.11.05 02:56:08 INFO  skipping build import with status 'Installed'
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19857'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.11.05 02:56:10 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+2020.11.05 02:56:10 WARN  no build target for: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Main.scala
+2020.11.05 02:56:10 WARN  no build target for: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\SemanticAnalysis.scala
+2020.11.05 02:56:10 WARN  no build target for: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\src\main\scala\Translator.scala
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19857...
+The server is listening for incoming connections at tcp://127.0.0.1:19857...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.05 02:56:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43295'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43295...
+The server is listening for incoming connections at tcp://127.0.0.1:43295...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.05 02:56:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.05 02:56:18 INFO  time: connected to build server in 10s
+2020.11.05 02:56:18 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.05 02:56:19 INFO  time: imported build in 1.69s
+2020.11.05 02:56:40 INFO  time: indexed workspace in 20s
+2020.11.05 02:56:52 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:57:14 INFO  time: compiled ass3 in 22s
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 42723'...
+Waiting for the bsp connection to come up...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32764'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:42723...
+The server is listening for incoming connections at tcp://127.0.0.1:42723...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32764...
+The server is listening for incoming connections at tcp://127.0.0.1:32764...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.05 02:57:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.05 02:57:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tride\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.05 02:57:18 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.05 02:57:19 INFO  Connected to Build server v1.4.4-13-408f4d80
+2020.11.05 02:57:19 INFO  time: imported build in 0.15s
+2020.11.05 02:57:18 INFO  time: imported build in 0.13s
+2020.11.05 02:57:18 WARN  File watching failed, indexes will not be updated.
+java.nio.file.FileAlreadyExistsException: D:\newStudyFolder\Semester_4\Programming Languages(COMP3000)\Ass\ASS3\target\scala-2.12\src_managed
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:81)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.createDirectory(WindowsFileSystemProvider.java:504)
+	at java.nio.file.Files.createDirectory(Files.java:674)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.$anonfun$createAndGetDirectories$1(MetalsEnrichments.scala:341)
+	at scala.collection.immutable.List.map(List.scala:293)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.createDirectoriesRec$1(MetalsEnrichments.scala:341)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.createAndGetDirectories(MetalsEnrichments.scala:345)
+	at scala.meta.internal.metals.FileWatcher.watch$1(FileWatcher.scala:95)
+	at scala.meta.internal.metals.FileWatcher.$anonfun$restart$3(FileWatcher.scala:113)
+	at scala.meta.internal.metals.FileWatcher.$anonfun$restart$3$adapted(FileWatcher.scala:113)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.MapLike$DefaultKeySet.foreach(MapLike.scala:181)
+	at scala.meta.internal.metals.FileWatcher.restart(FileWatcher.scala:113)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$indexWorkspace$5(MetalsLanguageServer.scala:1951)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1849)
+	at scala.meta.internal.metals.MetalsLanguageServer.indexWorkspace(MetalsLanguageServer.scala:1950)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$2(MetalsLanguageServer.scala:1876)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.meta.internal.metals.MetalsLanguageServer.timedThunk(MetalsLanguageServer.scala:1849)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$profiledIndexWorkspace$1(MetalsLanguageServer.scala:1876)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.05 02:57:20 INFO  time: indexed workspace in 1.49s
+2020.11.05 02:57:20 INFO  time: indexed workspace in 1.5s
+2020.11.05 02:57:20 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:57:20 INFO  time: compiled ass3 in 0.7s
+2020.11.05 02:57:23 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:57:23 INFO  time: compiled ass3 in 0.46s
+2020.11.05 02:57:53 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:57:53 INFO  time: compiled ass3 in 0.75s
+2020.11.05 02:59:01 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:01 INFO  time: compiled ass3 in 0.28s
+2020.11.05 02:59:05 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:05 INFO  time: compiled ass3 in 0.24s
+2020.11.05 02:59:10 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:10 INFO  time: compiled ass3 in 0.32s
+2020.11.05 02:59:15 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:15 INFO  time: compiled ass3 in 0.27s
+2020.11.05 02:59:19 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:19 INFO  time: compiled ass3 in 0.32s
+2020.11.05 02:59:22 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:22 INFO  time: compiled ass3 in 0.36s
+2020.11.05 02:59:27 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:27 INFO  time: compiled ass3 in 0.22s
+2020.11.05 02:59:37 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:37 INFO  time: compiled ass3 in 0.2s
+2020.11.05 02:59:53 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:53 INFO  time: compiled ass3 in 0.2s
+2020.11.05 02:59:57 INFO  compiling ass3 (1 scala source)
+2020.11.05 02:59:57 INFO  time: compiled ass3 in 0.28s
+2020.11.05 03:00:05 INFO  compiling ass3 (1 scala source)
+2020.11.05 03:00:05 INFO  time: compiled ass3 in 0.19s
