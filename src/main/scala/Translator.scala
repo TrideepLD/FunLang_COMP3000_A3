@@ -116,25 +116,6 @@ object Translator {
             
             // case BlockExp(defns, exp) => 
             //     head +: tail
-            case BlockExp(defns, exp) => 
-                defns match {
-                    case head :: tail => 
-                        head match {
-                            case Val(idndef,valExp) => genMkClosure(idndef.idn,BlockExp(tail,exp))
-                                                       gen(ICall())
-                            case FunGroup(vect) => 
-                                vect match {
-                                    case fnhead :: fntail => genMkClosure(fnhead.idndef.idn ,BlockExp(Vector(FunGroup(fntail)),exp))
-                                                   genMkClosure(fnhead.lam.arg.idndef.idn,fnhead.lam.body)
-                                                   gen(ICall())
-                                    case _ =>  genall(translateExpression(exp))                                           
-                                }
-                        }
-                    case _ =>
-                        genall(translateExpression(exp))
-                }
-
-
                 
             case _ => 0
                 // FIXME: Add cases for other kinds of expression...
