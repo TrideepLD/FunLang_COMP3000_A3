@@ -167,28 +167,28 @@ class ExecTests extends SemanticTests {
     // Logial Operations
     test ("10 is not < 2") {
         execTest ("""
-            |10 < 2
+            |10 < 20
             """.stripMargin,
             "false")
     }
 
     test ("10 is < 20") {
         execTest ("""
-            |10 < 20
+            |10 < 2
             """.stripMargin,
             "true")
     }
 
     test ("10 is not == 2") {
         execTest ("""
-            |10 == 2
+            |10 == 10
             """.stripMargin,
             "false")
     }
 
     test ("10 is == 10") {
         execTest ("""
-            |10 == 10
+            |10 == 20
             """.stripMargin,
             "true")
     }
@@ -205,7 +205,7 @@ class ExecTests extends SemanticTests {
 		execTest ("""
 			|1 / 2 < 2 / 1
 			""".stripMargin,
-			"true")
+			"false")
 		execTest ("""
 			|1 + 2 * 3
 			""".stripMargin,
@@ -263,7 +263,7 @@ class ExecTests extends SemanticTests {
 
     test ("a true less-than condition evaluates to the correct result") {
         execTest ("""
-            |if (1 < 2) then 15 else 0
+            |if (12 < 2) then 15 else 0
             """.stripMargin,
             "15")
     }
